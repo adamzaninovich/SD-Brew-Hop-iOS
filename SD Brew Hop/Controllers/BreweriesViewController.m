@@ -10,6 +10,7 @@
 #import "Brewery.h"
 #import "BreweryTableViewCell.h"
 #import "UIImageView+AFNetworking.h"
+#import "BreweryDetailsViewController.h"
 
 @interface BreweriesViewController ()
 @property (strong, nonatomic) NSArray *breweries;
@@ -66,7 +67,12 @@
 #pragma mark - Navigation
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
+    if ([[segue identifier] isEqualToString:@"ShowBreweryDetails"]) {
+        BreweryDetailsViewController *detailViewContoller = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        Brewery *brewery = [self.breweries objectAtIndex:indexPath.row];
+        detailViewContoller.brewery = brewery;
+    }
 }
 
 
