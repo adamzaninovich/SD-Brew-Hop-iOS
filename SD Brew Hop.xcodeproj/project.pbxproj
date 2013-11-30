@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		14CF39C3AE714C29B8CDDC41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CA3AC7D6CF451D9E30B9AA /* libPods.a */; };
+		3F59634418445A85008E8BD7 /* BreweryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F59634318445A85008E8BD7 /* BreweryDetailsViewController.m */; };
 		3F665CB5183F16DA009472C3 /* BreweryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F665CB4183F16DA009472C3 /* BreweryTableViewCell.m */; };
 		3F665CB8183F1A2D009472C3 /* BreweriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F665CB7183F1A2D009472C3 /* BreweriesViewController.m */; };
 		8B90FBE7183D733800DB970A /* SDBHClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B90FBE6183D733800DB970A /* SDBHClient.m */; };
@@ -43,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		15CA3AC7D6CF451D9E30B9AA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F59634218445A85008E8BD7 /* BreweryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreweryDetailsViewController.h; sourceTree = "<group>"; };
+		3F59634318445A85008E8BD7 /* BreweryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreweryDetailsViewController.m; sourceTree = "<group>"; };
 		3F665CB3183F16DA009472C3 /* BreweryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreweryTableViewCell.h; sourceTree = "<group>"; };
 		3F665CB4183F16DA009472C3 /* BreweryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreweryTableViewCell.m; sourceTree = "<group>"; };
 		3F665CB6183F1A2D009472C3 /* BreweriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreweriesViewController.h; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 			children = (
 				3F665CB6183F1A2D009472C3 /* BreweriesViewController.h */,
 				3F665CB7183F1A2D009472C3 /* BreweriesViewController.m */,
+				3F59634218445A85008E8BD7 /* BreweryDetailsViewController.h */,
+				3F59634318445A85008E8BD7 /* BreweryDetailsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 				3F665CB8183F1A2D009472C3 /* BreweriesViewController.m in Sources */,
 				8B90FBED183D797B00DB970A /* Brewery.m in Sources */,
 				8BD2FC48183D44DB00CB8EF7 /* AppDelegate.m in Sources */,
+				3F59634418445A85008E8BD7 /* BreweryDetailsViewController.m in Sources */,
 				8B90FBE7183D733800DB970A /* SDBHClient.m in Sources */,
 				8BD2FC44183D44DB00CB8EF7 /* main.m in Sources */,
 			);
